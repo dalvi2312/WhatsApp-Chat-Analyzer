@@ -104,7 +104,7 @@ if file is not None:
             st.title('Most Frequent Words')
             temp2 = df[df['messages'] != '<Media omitted>\n']
             temp2 = temp2[temp2['users'] != 'group_notification']
-            with open("D:\ML\WhatsApp Message Analayzier\FrontEnd\stop_hinglish.txt", "r") as file:
+            with open("stop_hinglish.txt", "r") as file:
                 stop_words = file.read().splitlines()
             words=[]
             for msg in temp2['messages']:
