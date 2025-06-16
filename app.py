@@ -8,7 +8,8 @@ from wordcloud import WordCloud
 from collections import Counter
 import emoji
 
-st.sidebar.title("WhatsApp Chat Analayzer")
+st.title("📊 WhatsApp Chat Analysis Project")
+st.sidebar.title('Add you chats file here👇🏼')
 file = st.sidebar.file_uploader("Choose File")
 
 if file is not None:
