@@ -2,6 +2,8 @@
 
 An end-to-end data analytics project that extracts meaningful insights from WhatsApp chat logs—right from raw `.txt` files to a fully deployed web application.
 
+Successfully Deployed on - https://whatsapp-chat-analyzer-23.streamlit.app/
+
 ---
 
 ## 🚀 Project Goal
