@@ -10,7 +10,6 @@ The goal is to demonstrate a complete data pipeline that:
 - Loads and cleans WhatsApp chat history
 - Performs exploratory data analysis (EDA)
 - Visualizes key chat patterns and trends
-- Deploys the analysis as a web app on Heroku
 
 ---
 
@@ -28,7 +27,7 @@ The goal is to demonstrate a complete data pipeline that:
   Graphs for daily activity, word clouds, emoji distributions, and more.
 
 - **Web App Deployment**  
-  Frontend + backend integrated and deployed on Heroku for live usage.
+  Frontend + backend integrated and deployed for live usage.
 
 ---
 
@@ -41,15 +40,9 @@ Ideal for:
 
 ---
 
-## ⏱️ Estimated Duration
+## ⚠️ Limitations
 
-The complete tutorial walkthrough takes around **2.5 hours**, providing a hands-on, practical learning experience.
-
----
-
-## 📽️ Based On
-
-This project is based on the YouTube tutorial by [CampusX](https://www.youtube.com/watch?v=Q0QwvZKG_6Q), enhanced with custom improvements and deployment support.
+This project only works on timestamp which is based on 12Hrs Format
 
 ---
 
